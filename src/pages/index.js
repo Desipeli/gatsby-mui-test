@@ -2,6 +2,8 @@ import * as React from 'react'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import { StaticImage } from 'gatsby-plugin-image'
+import Layout from '../components/Layout'
+import { Box } from '@mui/material'
 
 const IndexPage = () => {
     const handleHelloWorld = () => {
@@ -9,7 +11,7 @@ const IndexPage = () => {
     }
 
     return (
-        <main>
+        <Layout>
             <Typography variant="h1">Title</Typography>
             <img
                 alt="Gatsby G Logo"
@@ -18,15 +20,77 @@ const IndexPage = () => {
             <Button variant="contained" onClick={handleHelloWorld}>
                 Hello world
             </Button>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
+            <Box>moi</Box>
             <StaticImage
-                src="../images/icon.png"
+                src="../images/pic.jpg"
                 alt=""
                 placeholder="blurred"
                 layout="fixed"
-                width={200}
-                height={200}
+                width={400}
+                height={400}
             />
-        </main>
+        </Layout>
     )
 }
 
